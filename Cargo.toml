@@ -4,6 +4,7 @@ version = "0.1.0"
 authors = ["Tejasvi <tejasvi.tanwar541@gmail.com>"]
 edition = "2021"
 build = "build.rs"
+description = "A Desktop app that divides income"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
@@ -12,3 +13,8 @@ slint = "1.0"
 
 [build-dependencies]
 slint-build = "1.0"
+
+[package.metadata.bundle]
+name="Income Divider"
+identifier="io.github.tejasvi541.IncomeApp-Rust"
+
